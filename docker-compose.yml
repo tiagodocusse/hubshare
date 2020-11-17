@@ -2,7 +2,7 @@ version: "3.3"
 services:
     db:
         container_name: hub_db
-        image: tiagodocusse/hubsql
+        image: mcr.microsoft.com/mssql/server
         environment:
             SA_PASSWORD: "!Abc123++!"
             ACCEPT_EULA: "Y"
